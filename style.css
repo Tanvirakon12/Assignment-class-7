@@ -1,0 +1,238 @@
+*{ margin: 0;
+  padding: 0;
+  font-family:Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  
+}
+body{
+  background: #f0f2f5;
+}
+
+/* header section start  */
+header{
+  padding: 30px;
+}
+.header-con{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 30px;
+  /* padding: 30px; */
+}
+.logo{
+  line-height: 40px;
+}
+.logo a{
+  font-size: 35px;
+  font-weight: bold;
+  color: black;
+}
+a{
+text-decoration: none;
+}
+.menu{
+  text-align: end;
+}
+.menu a{
+  padding:10px;
+  line-height: 40px;
+  font-size: 20px;
+  color: black;
+}
+.menu a:hover{
+  border-radius: 10px;
+  box-shadow: 20px 20px 50px 10px rgb(212, 96, 160) inset;
+}
+/* header section end  */
+
+/* main section start */
+main{
+  padding: 0px 30px;
+}
+
+/* hero section start */
+.hero-section-a{
+  display: grid;
+  grid-template-columns:repeat(2,50%);
+  padding-top: 7%;
+  padding-bottom: 8%;
+}
+#i-2{
+  margin: 0 auto;
+}
+.hero-child h1{
+  padding-top: 40px; 
+  font-weight: bold;
+  font-size: 3em;
+}
+.paragraph-1{
+  font-size: 18px;
+  padding-top:40px ;
+  padding-bottom: 40px;
+}
+
+button{
+  padding: 8px 20px;
+  justify-content: center;
+  border-radius: 20px;
+  background-color:rgb(250, 1, 138);
+  border: none;
+}
+button:hover{
+  background-color: rgb(192, 6, 108);
+}
+#ancor-a{
+  text-decoration: none;
+  font-size:20px;
+  color: white;
+} 
+/* hero  section end */
+
+/*companys-logo section start*/
+.company-section{
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+#companys-logo{
+  display:grid;
+  grid-template-columns: repeat(7,100px);
+  align-items: center;
+  justify-content: center;
+  gap:75px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.logo-child:hover{
+  border: 1px solid black;
+  border-radius: 5px;
+}
+ /* companys-logo section end */
+
+ /* product-section start  */
+.heading-2{
+  text-align: center;
+  padding-top: 10%;
+  padding-bottom: 2.5%;
+  font-size: 20px;
+}
+.product-container{
+  display: grid;
+  /* grid-template-columns: repeat(3,0.1fr); */
+  grid-template-columns: repeat(3,0.1fr);
+  grid-template-rows: repeat(3,0.1fr);
+  gap: 40px 40px;
+  align-items: center;
+  justify-content:center;
+}
+.product-item{
+  background:#ffffff;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 20px 20px 50px grey;
+}
+.product-item:hover{
+  box-shadow: 20px 20px 150px 10px rgb(216, 155, 188) inset;
+}
+h2{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+h2:hover{
+  color:rgb( 24,119,242);
+}
+.doller-sine{
+  font-size: 25px;
+  padding-bottom:20px ;
+}
+.reating{
+  color: rgb(224, 93, 37);
+}
+span{
+  color: black;
+  padding-left: 5px;
+}
+.products-p{
+  padding-top: 15px;
+  padding-bottom: 25px;
+}
+#see-more{
+  text-align:end;
+  padding-top: 40px;
+  font-weight: bold;
+  padding-right: 10%;
+}
+#see-more a{
+  font-size: 30px;
+  color: rgb(250, 1, 138);
+}
+#see-more a:hover{
+  color:rgb( 24,119,242);
+}
+/* product-section end  */
+
+/* last section start  */
+.last-section-continer{
+  padding-top: 100px;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
+.last-child h1{
+  padding-top: 40px; 
+  font-weight: bold;
+  font-size: 3em;
+}
+.paragraph-2{
+  font-size: 18px;
+  padding-top:20px ;
+  padding-bottom: 20px;
+}
+#btn-b{
+  border-radius: 10px;
+}
+.image{
+  background-image: url('./images/customized-products.jpg');
+  background-size: cover;
+  width: 50%;
+  height: 65%;
+  margin-top: 10%;
+  margin-left: 40%;
+  border-radius: 10px;
+}
+/* last section end  */
+/* main section end  */
+
+/* footer section start  */
+footer{
+  margin-top: 100px; 
+}
+#footer-start{
+  height: 200px;
+  background-color:#183153;
+  margin: 8px;
+}
+
+.footer-section{
+ color: white;
+ /* display: grid;
+ grid-template-columns: repeat(1,1fr); */
+ justify-content: center;
+ text-align: center;
+}
+
+.footer-h{
+ padding-top: 50px;
+}
+
+.copyright{
+ padding-top: 10px;
+ padding-bottom: 10px;
+}
+
+.footer-icone{
+ padding-top: 10px;
+}
+
+.footer-icone a{
+ color: rgb(2, 255, 255);
+ padding: 5px;
+}
+/* footer section end  */
